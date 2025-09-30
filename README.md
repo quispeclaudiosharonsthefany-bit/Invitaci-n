@@ -4,5 +4,4 @@ gsap.to([cordWrapper, ribbon], {
      onComplete: () => {
        cordWrapper.style.display = "none";
        ribbon.style.display = "none";
-     }
   });
